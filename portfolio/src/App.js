@@ -5,7 +5,7 @@ import Header from './components/Header/Header'
 //import Skills from './components/Skills/Skills'
 // import ScrollToTop from './components/ScrollToTop/ScrollToTop'
 // import Contact from './components/Contact/Contact'
-// import Footer from './components/Footer/Footer'
+import Footer from './components/Footer/Footer'
 import './App.css'
 
 const App = () => {
@@ -21,8 +21,8 @@ const App = () => {
         <Contact /> */}
       </main>
 
-      {/* <ScrollToTop />
-      <Footer /> */}
+      {/* <ScrollToTop />*/}
+      <Footer /> 
     </div>
   )
 }
