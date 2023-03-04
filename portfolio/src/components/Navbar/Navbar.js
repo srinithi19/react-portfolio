@@ -10,9 +10,8 @@ const Navbar = () => {
     const toggleNavList = () => setShowNavList(!showNavList)
 
     return (
-        <nav className='center nav'>
-            <ul style = {{display : showNavList ? 'flex' : null}}
-            className = 'nav-list'>
+        <nav>
+            <ul className = 'nav-list'>
                 {projects.length ? (
                     <li className = 'nav-list-item'>
                         <a href='#projects' onClick={toggleNavList} className='link link-nav'>
@@ -45,13 +44,13 @@ const Navbar = () => {
                     </li>
                   ) : null}
             
-                <button
+                {/* <button
                 type='button'
                  onClick={toggleNavList}
-                 className='btn btn-icon nav-hamburger'
+                 className='btn btn--icon nav-hamburger'
                  aria-label='toggle navigation'>
                  {showNavList ? <Close /> : <Menu />}
-                 </button>
+                 </button> */}
             </ul>
         </nav>
     )

@@ -1,46 +1,10 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-.dark {
-  --clr-bg: #23283e;
-  --clr-bg-alt: #2a2f4c;
-  --clr-fg: #bdbddd;
+* {
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 20px;}
+.theme {
+  --clr-bg: #373f60;
+  --clr-bg-alt: #9195ab;
+  --clr-fg: #d6d6e4;
   --clr-fg-alt: #cdcdff;
   --clr-primary: #90a0d9;
   --shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
@@ -79,10 +43,12 @@ main {
   color: var(--clr-primary);
   padding: 0 0 0.3em 0;
   position: relative;
+  
 }
 
 .link:hover {
   color: var(--clr-primary);
+  cursor: pointer;
 }
 
 .link::before {
@@ -103,11 +69,12 @@ main {
 
 .link-nav {
   color: var(--clr-fg);
-  text-transform: lowercase;
+  /* text-transform: lowercase; */
   font-weight: 500;
+
 }
 
-.link-icon {
+.link--icon {
   color: var(--clr-fg);
 }
 
@@ -116,13 +83,12 @@ main {
   cursor: pointer;
   padding: 0.8em 1.4em;
   font-weight: 500;
-  font-size: 0.9rem;
-  text-transform: lowercase;
+  font-size: 1.2 rem;
   transition: transform 0.2s ease-in-out;
 }
 
 .btn--outline {
-  color: var(--clr-primary);
+  color: var(--clr-fg);
   border: 2px solid var(--clr-primary);
   position: relative;
   overflow: hidden;
