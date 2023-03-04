@@ -1,11 +1,10 @@
-import avatar from './components/Access/avatar.png'
+//import avatar from './components/Access/avatar.png'
 
 const header = {
-    title : 'Welcome to my page'
 }
 
 const about = {
-    photo:avatar,
+    //photo:avatar,
     name : 'Srinithi Ravichandran',
     role : 'Full Stack Developer',
     description:
