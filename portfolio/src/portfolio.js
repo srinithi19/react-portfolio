@@ -1,10 +1,7 @@
-//import avatar from './components/Access/avatar.png'
-
-const header = {
-}
+import avatar from './components/Access/avatar.jpeg'
 
 const about = {
-    //photo:avatar,
+    photo:avatar,
     name : 'Srinithi Ravichandran',
     role : 'Full Stack Developer',
     description:
@@ -96,4 +93,4 @@ const contact = {
     email: 'emailtonithi@gmail.com',
   }
   
-  export { header, about, projects, skills, contact }
+  export {  about, projects, skills, contact }
