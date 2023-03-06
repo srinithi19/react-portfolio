@@ -52,7 +52,7 @@ const projects = [
 
     },
     {
-        name : 'https://github.com/srinithi19/Note-taker',
+        name : 'Note Taker',
         description : 
         'This application is used for saving day to day tasks as note taker. Users can add/view/delete notes from the list of notes. This is built using HTML, CSS, JS on the front-end and nodeJs/expressJs as backend. This application is deployed using Heroku.',
         sourceCode : 'https://github.com/srinithi19/Note-taker',
