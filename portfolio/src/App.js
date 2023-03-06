@@ -2,9 +2,9 @@
 import Header from './components/Header/Header'
 import About from './components/About/About'
 //import Projects from './components/Projects/Projects'
-//import Skills from './components/Skills/Skills'
-// import ScrollToTop from './components/ScrollToTop/ScrollToTop'
-// import Contact from './components/Contact/Contact'
+import Skills from './components/Skills/Skills'
+ import ScrollToTop from './components/ScrollToTop/ScrollToTop'
+import Contact from './components/Contact/Contact'
 import Footer from './components/Footer/Footer'
 import './App.css'
 
@@ -16,12 +16,12 @@ const App = () => {
 
       <main>
         <About />
-       {/*  <Projects />
+       {/*  <Projects />*/}
         <Skills />
-        <Contact /> */}
+        <Contact /> 
       </main>
 
-      {/* <ScrollToTop />*/}
+      <ScrollToTop />
       <Footer /> 
     </div>
   )
