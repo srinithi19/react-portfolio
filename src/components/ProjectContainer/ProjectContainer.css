@@ -4,7 +4,7 @@
     text-align: center;
     box-shadow: var(--shadow);
     transition: transform 0.2s linear;
-    background-color:  #5a618a;
+    /* background-color:  #5a618a; */
   }
   
   .project:hover {

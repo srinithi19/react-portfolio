@@ -1,7 +1,17 @@
 * {
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 font-size: 20px;}
+
 .theme {
+  --clr-bg: #fcfcfc;
+  --clr-bg-alt: #fff;
+  --clr-fg: #555;
+  --clr-fg-alt: #444;
+  --clr-primary: #2978b5;
+  --shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.theme1 {
   --clr-bg: #373f60;
   --clr-bg-alt: #656b8e;
   --clr-fg: #d6d6e4;

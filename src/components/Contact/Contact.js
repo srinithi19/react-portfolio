@@ -68,9 +68,31 @@ const Contact = () => {
       setEmail('');
   };
 
+    const handleEmail = (e) => {
+        if (!validateEmail(email)) {
+            setErrorMessage('Email is invalid');
+            return;
+        }
+    }
+
+    const handleName = (e) => {
+        if (!contactName) {
+            setErrorMessage("Please enter your name");
+            return;
+        }
+    }
+
+    const handleMessage = (e) => {
+        if (!message) {
+            setErrorMessage(
+                "Please enter a message to send"
+            );
+            return;
+        }
+    }
   return (
     <section className='section contact' id='contact'>
-      <h2 className='section__title'>Contact</h2>
+      <h2>CONTACT</h2>
       <label> Name : </label><input
                             className="input"
                             value={contactName}
@@ -78,9 +100,9 @@ const Contact = () => {
                             onChange={handleInputChange}
                             type="text"
                             placeholder="Name"
-                        />                   
-                         <p class="help is-danger">{errorMessage}</p>
-                      
+                            onBlur={handleName}
+                        />    <br></br>   <br></br>            
+                    
       <label> Email : </label> <input
                             className="input"
                             value={email}
@@ -88,18 +110,25 @@ const Contact = () => {
                             onChange={handleInputChange}
                             type="email"
                             placeholder="Email"
-                        />
-                        <p class="help is-danger">{errorMessage}</p>
+                            onBlur={handleEmail}
+                        /><br></br><br></br>
+                       
       <label> Message : </label> <textarea
                         value={message}
                         name="message"
                         onChange={handleInputChange}
                         type="textarea"
                         placeholder="Message"
-                    />
-                    <p class="help is-danger">{errorMessage}</p>
+                        onBlur={handleMessage}
+                    /><br></br><br></br>
+                    
 
       <button type="button" onClick={handleFormSubmit}>Submit</button>
+      {errorMessage && (
+                <div>
+                    <p className="error-text">{errorMessage}</p>
+                </div>
+            )}
     </section>
   )
 }
