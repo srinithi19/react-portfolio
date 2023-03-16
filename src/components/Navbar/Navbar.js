@@ -31,7 +31,7 @@ const Navbar = () => {
                 ) : null}
             
 
-                {
+                {/* {
                 contact.email ? (
                     <li className='nav-list-item'>
                       <a
@@ -43,7 +43,7 @@ const Navbar = () => {
                       </a>
                     </li>
                   ) : null}
-            
+             */}
                 {/* <button
                 type='button'
                  onClick={toggleNavList}
