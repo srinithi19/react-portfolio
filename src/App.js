@@ -18,7 +18,7 @@ const App = () => {
         <About />
         <Projects />
         <Skills />
-        <Contact /> 
+        {/* <Contact />  */}
       </main>
 
       <ScrollToTop />
