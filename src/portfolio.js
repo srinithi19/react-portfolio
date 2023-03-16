@@ -28,6 +28,13 @@ const projects = [
 
     },
     {
+        name : 'Support Hero',
+        description : 'A MERN stack application that allows customer support representatives to create, assign, and track customer support tickets. It provides a central location for customer support representatives to manage and prioritize customer requests. The system also enables the customer support team to respond to inquiries, track issues, and manage customer data.',
+        sourceCode : 'https://github.com/rmoscoe/support-hero',
+        demo : 'https://dry-fjord-88699.herokuapp.com/'
+
+    },
+    {
         name : 'Tech Blog',
         description : 
         'This is a full stack application which allows users to post a blog, view other users blog and comment on their posts. This app is built using HTML/CSS/JS on the front end and Nodejs/expressJs, sequelize ORM , mysql and npm packages on the back end. It is built to meet the requirements of MVC paradigm and deployed using Heroku.',
