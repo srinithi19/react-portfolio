@@ -1,11 +1,13 @@
 import avatar from './components/Access/avatar.jpeg'
+import myResume from './components/Access/Srinithi_Ravichandran_Resume.pdf'
 
 const about = {
     photo:avatar,
     name : 'Srinithi Ravichandran',
     description:
     'A highly motivated individual with entry-level experience specializing in Front End development, Back end Development and Full Stack Development and user interface design with an additional 6 years of work experience as Sr QA Engineer and a year of experience as a web developer. With a passion for both personal growth and for software development, I attended a certification course on  Full Stack Web Development while sharpening existing skills. Ready to apply my passion for coding to a talented engineering team to develop quality solutions. ',
-    resume : 'https://docs.google.com/document/d/1rCxz7rupVC1TW5ceGeMrR79qcliyvLVd/edit',
+    // resume : 'https://docs.google.com/document/d/1rCxz7rupVC1TW5ceGeMrR79qcliyvLVd/edit',
+    resume: myResume,
     linkedin : 'https://www.linkedin.com/in/srinithi-ravichandran-18891243/',
     github : 'https://github.com/srinithi19'
 
