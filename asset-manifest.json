@@ -1,16 +1,17 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.e263b2a4.css",
-    "main.js": "/react-portfolio/static/js/main.afda89a1.js",
+    "main.js": "/react-portfolio/static/js/main.7e1bc792.js",
     "static/js/787.1ed0c42c.chunk.js": "/react-portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/Srinithi_Ravichandran_Resume.pdf": "/react-portfolio/static/media/Srinithi_Ravichandran_Resume.41b890f9c6438bbd1ef5.pdf",
     "static/media/avatar.jpeg": "/react-portfolio/static/media/avatar.cf4f8dac5050e78e3b39.jpeg",
     "index.html": "/react-portfolio/index.html",
     "main.e263b2a4.css.map": "/react-portfolio/static/css/main.e263b2a4.css.map",
-    "main.afda89a1.js.map": "/react-portfolio/static/js/main.afda89a1.js.map",
+    "main.7e1bc792.js.map": "/react-portfolio/static/js/main.7e1bc792.js.map",
     "787.1ed0c42c.chunk.js.map": "/react-portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e263b2a4.css",
-    "static/js/main.afda89a1.js"
+    "static/js/main.7e1bc792.js"
   ]
 }
